@@ -24,8 +24,8 @@ app = FastAPI()
 SECRET_KEY = "super-secret-key-change-me"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
-ADMIN_USERNAME = "motherfucker"
-ADMIN_PASSWORD = "Nos+24682468"
+ADMIN_USERNAME = "nope12341231234r"
+ADMIN_PASSWORD = "boss+24682468"
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()
